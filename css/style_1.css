@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2037536933/display_1500/stock-vector-vector-illustration-of-national-mathematics-day-december-2037536933.jpg);
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
+}
+section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+/*Estilos del nav*/
+nav{
+    display: flex;
+    flex-direction: row;
+} 
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 24
+}
+span{
+    color: white;
+}
+/*Estilos de Form*/
+
+.form-container{
+    background: linear-gradient(to right bottom, rgba(5, 25, 55, 0.8), rgba(0, 77, 122, 0.8), rgba(0, 135, 147, 0.8), rgba(0, 191, 114, 0.8), rgba(168, 235, 18, 0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 20px;
+}
+.h3{
+    font-size: 30px;
+    padding: 20px;
+}
+segundo-numero{
+    padding-bottom: 10px;
+}
+.btn{
+    color: white;
+}
